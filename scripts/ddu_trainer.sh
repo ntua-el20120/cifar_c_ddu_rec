@@ -1,0 +1,1 @@
+python3 train_ensemble.py --seed 1 --dataset cifar10 --model wide_resnet --ensemble 5 -e 200 --save-path /home/ubuntu/workspace/recreation/DDU/models_saving_dir/ensemble/

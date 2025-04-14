@@ -1,0 +1,11 @@
+python evaluate_ood_cifarc.py \
+       --seed 1 \
+       --dataset cifar10 \
+       --ood_dataset cifar10c \
+       --load-path /home/ubuntu/workspace/recreation/DDU/models_saving_dir/ddu/ \
+       --model wide_resnet \
+       --runs 1 \
+       -sn \
+       --coeff 3 \
+       -mod \
+       --model-type gmm
